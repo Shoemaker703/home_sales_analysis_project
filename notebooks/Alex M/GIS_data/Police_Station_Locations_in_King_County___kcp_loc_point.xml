@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20050922</pubdate>
+                <title>Police Station Locations in King County / kcp_loc_point</title>
+                <edition>One</edition>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>King County</publish>
+                </pubinfo>
+                <othercit>None</othercit>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=f6f5c83a8e924edbab4d5fed62207693</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=1c3a16a872684421bf455c61fa9668b4</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/Metadata.aspx?Layer=kcp_loc</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterTermsAndConditions.pdf</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterHelpUsingKCOpenData.pdf</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Police station locations in King County</abstract>
+            <purpose>Location of various jurisdictional police stations</purpose>
+            <supplinf>None</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20140306</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-122.47222</westbc>
+                <eastbc>-121.354905</eastbc>
+                <northbc>47.772274</northbc>
+                <southbc>47.194616</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>Not applicable</themekt>
+                <themekey>public safety</themekey>
+                <themekey>police protection</themekey>
+                <themekey>pubsafe</themekey>
+                <themekey>kcp_loc_point</themekey>
+                <themekey>kingcounty_opendata</themekey>
+            </theme>
+            <place>
+                <placekt>Not applicable</placekt>
+                <placekey>Pacific NW</placekey>
+                <placekey>King County</placekey>
+                <placekey>Washington state</placekey>
+                <placekey>WA</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>King County data are made available with the understanding that they shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means without the express written authorization of King County.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County Sheriff's Office/Public Safety</cntorg>
+                    <cntper>Miranda Brewer</cntper>
+                </cntorgp>
+                <cntpos>GIS Specialist-Journey, Communications Center</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>3511 NE 2nd St</address>
+                    <city>Renton</city>
+                    <state>WA</state>
+                    <postal>98156</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(206) 205-7600</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://www5.kingcounty.gov/sdc/DataImages/kcp_loc.jpg</browsen>
+            <browsed>JPG File of layer overlain on base of WA counties or local cities</browsed>
+            <browset>JPG</browset>
+        </browse>
+        <native>ESRI ArcGIS 10.0.3.3600</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Derived from COMMON_INTEREST master table based on CODE = 65. Business table attributes are attached.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Updates provided by Miranda Hett. Feature attributes modified, some features removed and one new feature addded. Schema changes applied: New items - PHONE, CITY, STATE_NAME</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Feature attributes updated, including but not limited to ESITE and WEBSITE.</procdesc>
+                <procdate>20110414</procdate>
+                <proctime>123540</proctime>
+            </procstep>
+            <procstep>
+                <procdesc>Newcastle police station location updated. Minor corrections to descriptive attributes for other features.</procdesc>
+                <procdate>20111122</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>New location for Kirkland PD, and corrected location for Bellevue PD</procdesc>
+                <procdate>20140624</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>PLIBRARY.PUBSAFE.xxxx730019</enttypl>
+                <enttypd>Point entity data table</enttypd>
+                <enttypds>ESRI</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>Unique feature name</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Mixed text, no abbreviations</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ABB_NAME</attrlabl>
+                <attrdef>Abbreviated name for feature</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Mixed case</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>Street address</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Mixed case</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FEATURE_ID</attrlabl>
+                <attrdef>Unique feature identifier</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Integer</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CITY</attrlabl>
+                <attrdef>City name for street address</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Mixed case</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STATE_NAME</attrlabl>
+                <attrdef>State abbreviation for street address</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Two-letter abbreviation</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ESITE</attrlabl>
+                <attrdef>Unique ADDRESS_POINT identifier</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Unique 1 to 7-digit text value</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WEBSITE</attrlabl>
+                <attrdef>Website for feature</attrdef>
+                <attrdomv>
+                    					
+                    <udom>URL in standard http format</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ZIPCODE</attrlabl>
+                <attrdef>Zipcode for street address</attrdef>
+                <attrdomv>
+                    					
+                    <udom>5-digit text value</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PIN</attrlabl>
+                <attrdef>Property Identification Number for parcel</attrdef>
+                <attrdomv>
+                    					
+                    <udom>10-digit value as text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MAJOR</attrlabl>
+                <attrdef>Major Number portion of PIN</attrdef>
+                <attrdomv>
+                    					
+                    <udom>First 6-digits of PIN as text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MINOR</attrlabl>
+                <attrdef>Minor Number portion of PIN</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Last 4-digits of PIN as text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DISTRICT</attrlabl>
+                <attrdef>Police district</attrdef>
+                <attrdomv>
+                    					
+                    <udom>2-character jurisdictional abbreviation</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FAC_CLASS</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>NEWSTA</attrlabl>
+                <attrdomv>
+                    					
+                    <udom>E
+N
+X
+Y</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RESOLUTION</attrlabl>
+                <attrdef>Comment on accuracy of location</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Mixed text phrase</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CODE</attrlabl>
+                <attrdef>Feature class code</attrdef>
+                <attrdomv>
+                    					
+                    <udom>65 Police Station</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PHONE</attrlabl>
+                <attrdef>Area code and phone number of facility</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Form (###) ###-####</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>KCGIS Center</cntorg>
+                    <cntper>Cheryl Wilder</cntper>
+                </cntorgp>
+                <cntpos>Data Sales Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 700</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-5220</cntvoice>
+            </cntinfo>
+        </distrib>
+        <resdesc>/plibrary2/pubsafe/shapes/point/kcp_loc.shp</resdesc>
+        <distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ESRI Shapefile</formname>
+                </digtinfo>
+            </digform>
+            <fees>Contact KCGIS Client Services for the cost of reproduction - http://www.kingcounty.gov/operations/GIS/GISData/GISDataDistribution.aspx</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20140624</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County GIS Center</cntorg>
+                    <cntper>Mike Leathers</cntper>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 700</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-4867</cntvoice>
+                <cntemail>firstname.lastname@kingcounty.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
