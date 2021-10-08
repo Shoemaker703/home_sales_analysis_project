@@ -7,7 +7,8 @@ from shapely.geometry import Point
 def ckdnearest(gdA, gdB, name):
     '''
     Takes in two GeoDataFrames with point geometries and finds, for every point
-    in gdA, the nearest point in gdB
+    in gdA, the nearest point in gdB. Code slightly modified from that found
+    on the first response 'https://gis.stackexchange.com/questions/222315/geopandas-find-nearest-point-in-other-dataframe'
     
     Input:
         gdA - GeoDataFrame whose points you want to find the closest point in gdB
