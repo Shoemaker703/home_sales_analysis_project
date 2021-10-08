@@ -64,10 +64,16 @@ Here is the data we will be using for this project:
 - Additional data preparation is done throughout the notebook as we built more models in order to improve performance. Notes pertaining to these additional preparations are included in the relevant sections below.
 - Geodata was added to the notebook by processing shapefiles downloaded from [King County GIS Open Data](https://gis-kingcounty.opendata.arcgis.com/) Each file consisted of point data for sites of interest in King County: medical centers, schools, police stations, and farmers markets; each type of site was selected for its appeal to prospective homebuyers. Using a custom function the nearest station, market, etc. for each house in the primary dataframe was discovered as well as its distance, in degrees, to the house. The file containing the function can be found [here](https://github.com/Shoemaker703/home_sales_analysis_project/blob/main/notebooks/Alex%20M/distance_function.py) and the workbook the processing was done in can be found [here](https://github.com/Shoemaker703/home_sales_analysis_project/blob/main/notebooks/Alex%20M/GIS_data.ipynb)
 
+<img src="./images/missingno.PNG">
+
+
 ## Modeling (Simple Linear Regression)
 
 - First we looked at the correlations between price and other features in the data set, and found that 'sqft_living' has the strongest correlation. Thus, we decided to use this feature for our simple model.
 - The square footage of the living space in the house is an important feature for single family homes, as discussed above in the 'business understanding' section of this notebook (see references to Joe Gomez and Rocket Mortgage).
+
+<img src="./images/heatmap.png">
+<img src="./images/Simple LR Model.png">
 
 ## Modeling (Multiple Linear Regression)
 
@@ -75,6 +81,8 @@ Here is the data we will be using for this project:
 
 
 # Final Model
+<img src="./images/Final Model Evaluation.png">
+<img src="./images/final_lr_model (5).png">
 
 ## Conclusions
 Our final model explains roughly 52% of the variance in sale price for homes in King County, WA.
@@ -101,6 +109,6 @@ There are a number of possible directions to go in the future, but here are some
 - Examine properties with multiple sale records to see what trends led to changes in sale price.
 
 # For More Information
-See the full analysis in the [Jupyter Notebook](https://github.com/Shoemaker703/home_sales_analysis_project/blob/main/Project2_final.ipynb) or review this presentation [presentation](https://github.com/Shoemaker703/home_sales_analysis_project/blob/main/KC%20HOUSING%20PROJECT.pdf).
+See the full analysis in the [Jupyter Notebook](https://github.com/Shoemaker703/home_sales_analysis_project/blob/main/Project2_final.ipynb) or review this [presentation](https://github.com/Shoemaker703/home_sales_analysis_project/blob/main/KC%20HOUSING%20PROJECT.pdf).
 
 For additional info, contact Alex Dohn at alexdohn2016@gmail.com, Alex Marshall at alex.marshall842@outlook.com, or Scott Schumann at Scott.Schumann1@gmail.com
