@@ -116,10 +116,10 @@ There are a number of possible directions to go in the future, but here are some
 │   ├── data                       <- contains CSV files used for project.\
 │   ├── images                     <- contains PNG files used in this README\
 │   └── notebooks                  <- contains Jupyter notebooks created by each team member\
-│       ├── Alex D\            
+│       ├── Alex D           
 │       ├── Alex M\
 │       |   └── GIS Data           <- contains shape files for additional geo data used for project\
-│       └── Scott S\
+│       └── Scott S
 
 
 # For More Information
